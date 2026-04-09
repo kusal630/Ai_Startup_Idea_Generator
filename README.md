@@ -4,32 +4,7 @@ A multi-agent AI system built with CrewAI that takes a raw topic or industry and
 Overview
 This project demonstrates real-world multi-agent collaboration using CrewAI. Four specialized agents work in a sequential pipeline, where each agent's output feeds into the next — mimicking how a real startup founding team would operate.
 
-Agent Architecture
-text
-User Input (Industry / Problem Statement)
-        │
-        ▼
-┌─────────────────────┐
-│   Idea Generator    │  Generates innovative startup concepts based on the input
-└─────────┬───────────┘
-          │
-          ▼
-┌─────────────────────┐
-│  Market Researcher  │  Validates demand, identifies competitors, estimates market size
-└─────────┬───────────┘
-          │
-          ▼
-┌──────────────────────┐
-│ Business Strategist  │  Defines revenue model, target audience, and go-to-market strategy
-└─────────┬────────────┘
-          │
-          ▼
-┌─────────────────────┐
-│   Pitch Creator     │  Crafts a compelling investor pitch from all previous outputs
-└─────────────────────┘
-          │
-          ▼
-   Structured Output
+
 Agents & Roles
 Agent	Role	Responsibility
 Idea Generator	Creative Lead	Generates 3–5 innovative startup concepts based on the given domain
